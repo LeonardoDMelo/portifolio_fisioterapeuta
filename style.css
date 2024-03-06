@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* background-color: #204f43; */
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+/*NavBar*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: #204f43;
+  padding: 30px 0;
+  font-size: "Ubuntu", sans-serif;
+}
+.navbar .max-width {
+  display: flex;
+  max-width: 1300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.navbar .logo a span {
+  color: #00804b;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.menu li a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+.menu li a :hover {
+  color: #800000;
+}
+
+/*Home Begin */
+
+.home {
+  display: flex;
+  background: url(Images/Lidiane.png) no-repeat center;
+  background-position: right;
+  height: 130vh;
+  color: #87bfaa;
+  min-height: 500px;
+  font-family: "Ubuntu", sans-serif;
+}
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+.home .home-content .text-1 {
+  font-size: 27px;
+}
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 500;
+  margin-left: -3px;
+}
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+.home .home-content .text-3 span {
+  color: #204f43;
+  font-weight: 500;
+}
